@@ -383,18 +383,22 @@ ul {
 	object-fit: cover;
 }
 
+.readMore{
+	font-family: 'Koulen', monospace;
+}
+
 .post-preview {
-	background-color: #fff;
+	background-color: var(--previewBg);
 	padding: 15px;
 }
 
 .post-title {
-	color: black;
+	color: var(--secondaryText);
 	margin: 0;
 }
 
 .post-intro {
-	color: #4b5156;
+	color: var(--mainText);
 	font-size: 15px;
 }
 
