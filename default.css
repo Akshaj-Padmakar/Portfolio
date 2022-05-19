@@ -299,6 +299,12 @@ ul{
 	height:105px;
 	/*object-fit: cover;*/
 }
+#social_img2 {
+	/*display: block;*/
+	width: 50%;
+	height: 165px;
+	/*object-fit: cover;*/
+}
 
 .post-wrapper{
 	display: grid;
