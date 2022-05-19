@@ -1,11 +1,11 @@
 :root{
-	--mainColor:#606B56;
-	--secondaryColor:#515a48;
+	--mainColor:#383c35;
+	--secondaryColor:#3d4237;
 
 	--borderColor:#161914;
 
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
+	--mainText:rgb(176, 145, 60);
+	--secondaryText:#a59e9e;
 
 	--themeDotBorder:#FFF;
 
