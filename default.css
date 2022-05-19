@@ -1,20 +1,25 @@
 :root{
-	--mainColor: #eaeaea;
-	--secondaryColor: #fff;
+	--mainColor: #ef9595;
+	--secondaryColor: rgb(179, 122, 122);
 
-	--borderColor:  #c1c1c1;
+	--borderColor:  #030303;
 
 	--mainText: black;
-	--secondaryText: #4b5156;
+	--secondaryText: #151616;
 
-	--themeDotBorder: #24292e;
-	--previewBg:rgb(251, 249, 243, 0.8);
+	--themeDotBorder: #275787;
+	--previewBg:rgba(134, 123, 92, 0.8);
 
-	--previewShadow:#f0ead6;
+	--previewShadow:#828079;
 
 	--buttonColor:black;
 
 }
+
+/* title{
+	color: var(--mainText);
+	font-family: 'Russo One', sans-serif;
+} */
 
 html, body{
 	padding: 0;
@@ -25,19 +30,25 @@ body *{
 }
 
 
-h1, h2, h3, h4, h5, h6, strong{
+h1{
+	color: var(--mainText);
+	font-family: 'Koulen', monospace;
+	font-size: 50px;
+}
+h2, h3, h4, h5, h6, strong{
 	color:  var(--mainText);
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Koulen', monospace;
+	/* font-size: 25px; */
 }
 
 .Rand{
 	text-align: center;
 }
 
-
 p, li, span, label, input, textarea{
 	color:  var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Koulen', monospace;
+	font-size: 19px;
 }
 
 
@@ -159,8 +170,8 @@ ul{
 	display: block;
 	margin: 0 auto;
 	
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 
 	object-fit: cover;
 	border: 2px solid var(--borderColor);
@@ -193,7 +204,7 @@ ul{
 }
 
 #light-mode{
-	background-color: #fff;
+	background-color: rgb(181, 141, 141);
 }
 
 #blue-mode{
