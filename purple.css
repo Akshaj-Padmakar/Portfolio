@@ -4,8 +4,8 @@
 
 	--borderColor:#1d1520;
 
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
+	--mainText:rgb(213, 203, 203);
+	--secondaryText:#e6c2c2;
 
 	--themeDotBorder:#FFF;
 
@@ -13,7 +13,6 @@
 	--previewShadow:#2b202f;
 
 
-	--buttonColor:#8534a3;
-
+	--buttonColor:#613a6f;
 
 }
