@@ -207,7 +207,7 @@ video {
 }
 
 .top-7 {
-  top: 1.75rem;
+  top: 1rem;
 }
 
 .left-7 {
@@ -431,7 +431,8 @@ video {
 
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: #bbbbbb;
+  /* rgb(255, 219, 172 / var(--tw-bg-opacity)); */
 }
 
 .bg-black\/50 {
@@ -649,9 +650,9 @@ video {
 
 .text-box {
   position: absolute; /* Position the text box relative to the container */
+  text-align: center; /* Center text within the paragraph */
   top: 10%; /* Align the text box to the top of the container */
-  left: 75%; /* Position the text box to the right of the image */
-  background-color: white; /* Set the background color of the text box */
+  left: 80%; /* Position the text box to the right of the image */
   padding: 10px; /* Add padding to the text box */
   border: 2px solid black; /* Add a border to the text box */
   border-radius: 5px; /* Add border-radius to make the corners rounded */
@@ -659,9 +660,9 @@ video {
 
 .text-box2 {
   position: absolute; /* Position the text box relative to the container */
+  text-align: center; /* Center text within the paragraph */
   top: 15%; /* Align the text box to the top of the container */
   left: 75%; /* Position the text box to the right of the image */
-  background-color: white; /* Set the background color of the text box */
   padding: 10px; /* Add padding to the text box */
   border: 2px solid black; /* Add a border to the text box */
   border-radius: 5px; /* Add border-radius to make the corners rounded */
