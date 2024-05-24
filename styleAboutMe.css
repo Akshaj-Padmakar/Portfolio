@@ -111,6 +111,7 @@ body {
   text-decoration: none;
   padding: 0.4rem;
 }
+
 /* Styles for the close button */
 .close-button {
   position: absolute;
@@ -178,33 +179,8 @@ h6 {
   font-weight: inherit;
 }
 
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
 
-.nav-wrapper {
-  border-radius: 5px 5px 0 0;
-  grid-area: nav-wrapper;
-  border-bottom: 1px solid var(--borderColor);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--mainColor);
-}
 
-blockquote,
-dd,
-dl,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-pre {
+p {
   margin: 0;
 }
