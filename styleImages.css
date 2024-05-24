@@ -442,7 +442,7 @@ body,
 
 p {
   /* Basic styles */
-  font-size: 1rem; /* Adjust as needed */
+  font-size: 13px; /* Adjust as needed */
   color: #575757; /* Adjust text color as needed */
   margin: 20px 0; /* Adjust margin as needed */
   text-align: center;
@@ -451,4 +451,21 @@ p {
   top: 10%; /* Distance from the top of the container */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Center the element */
+}
+
+.styled-paragraph {
+  font-family: JetBrains Mono, monospace; /* Use the desired font */
+  font-size: 13px; /* Adjust as needed */
+  color: #575757; /* Adjust text color as needed */
+  margin: 20px 0; /* Adjust margin as needed */
+  text-align: center; /* Center text */
+  position: absolute; /* Absolute positioning */
+  top: 10%; /* Distance from the top of the container */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  padding: 15px; /* Add padding */
+  border: 2px solid black; /* Add a 2px solid black border */
+  border-radius: 10px; /* Make the borders rounded with a radius of 10px */
+  background-color: #bbbbbb; /* Optional: Set a background color */
+  max-width: 700px; /* Optional: Set maximum width for the paragraph */
 }
