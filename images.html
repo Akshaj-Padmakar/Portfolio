@@ -1,38 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Post Name</title>
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
-    />
-
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"> -->
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshaj / Photos</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="nav-wrapper">
-      <a href="index.html">
-        <div class="dot-wrapper">
-          <div id="dot-1" class="browser-dot"></div>
-        </div>
-      </a>
+    <a href="index.html" class="close-button">
+      <img
+        draggable="false"
+        src="images/close.png"
+        width="20"
+        height="20"
+        class="close-img rendering-pixelated pointer-events-auto"
+      />
+    </a>
+    <p>
+      These are some of the clicks from my phone, including various places from
+      <b>my college</b>, and areas in <b>northeast</b> like
+      <b>Dzuko Valley, Tawang, Kaziranga</b> and some beautiful villages in
+      <b>Meghalaya</b> with some random clicks <b>:-)</b> .
+    </p>
 
-      <ul id="navigation">
-        <li><a href="index.html#contact">Contact</a></li>
-      </ul>
+    <div class="container">
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          chevron_left
+        </button>
+        <ul class="image-list">
+          <li class="image-item"><img src="images/img/1.png" alt="img-1" /></li>
+          <li class="image-item"><img src="images/img/2.png" alt="img-2" /></li>
+          <li class="image-item"><img src="images/img/3.png" alt="img-3" /></li>
+          <li class="image-item"><img src="images/img/4.png" alt="img-4" /></li>
+          <li class="image-item"><img src="images/img/5.png" alt="img-5" /></li>
+          <li class="image-item"><img src="images/img/6.png" alt="img-6" /></li>
+          <li class="image-item"><img src="images/img/7.png" alt="img-7" /></li>
+          <li class="image-item"><img src="images/img/8.png" alt="img-8" /></li>
+          <li class="image-item"><img src="images/img/9.png" alt="img-9" /></li>
+          <li class="image-item">
+            <img src="images/img/10.png" alt="img-10" />
+          </li>
+        </ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          chevron_right
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="main-container">
-      <br />
-      <h1 class="Rand">Coming Soon !</h1>
+    <div class="navbar-container">
+      <a
+        class="navbar-txt"
+        href="https://www.instagram.com/_akshajj?igsh=NWF2Zmpjdmo2NXUz&utm_source=qr"
+        >Instagram</a
+      >
+      /
+      <a class="navbar-txt" href="https://www.linkedin.com/in/ap2089/"
+        >Linkedin</a
+      >
+      /
+      <a class="navbar-txt" href="https://www.facebook.com/pretish.singh.3/"
+        >Facebook</a
+      >
+      /
+      <a
+        class="navbar-txt"
+        href="https://open.spotify.com/user/qmovncqg22mec3ysj9vtn3jn7"
+        >Spotify</a
+      >
     </div>
   </body>
 </html>

@@ -1,0 +1,669 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+:after,
+:before {
+  --tw-content: "";
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-feature-settings: normal;
+}
+
+#main-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.nav-wrapper {
+  border-radius: 5px 5px 0 0;
+  grid-area: nav-wrapper;
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mainColor);
+}
+.dot-wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+#dot-1 {
+  background-color: #fc6058;
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+[hidden] {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.top-7 {
+  top: 1rem;
+}
+
+.left-7 {
+  left: 1.75rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-\[90px\] {
+  bottom: 90px;
+}
+
+.right-\[90px\] {
+  right: 90px;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-\[999999\] {
+  z-index: 999999;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-0 {
+  height: 0;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
+.h-\[90px\] {
+  height: 90px;
+}
+
+.max-h-\[calc\(min\(100vh\2c 100vw\2c 800px\)-32px\)\] {
+  max-height: calc(min(100vh, 100vw, 800px) - 32px);
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.w-\[90px\] {
+  width: 90px;
+}
+
+.min-w-\[24px\] {
+  min-width: 24px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.max-w-\[calc\(min\(100vh\2c 100vw\2c 800px\)-32px\)\] {
+  max-width: calc(min(100vh, 100vw, 800px) - 32px);
+}
+
+.max-w-\[440px\] {
+  max-width: 440px;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.auto-rows-\[auto\] {
+  grid-auto-rows: auto;
+}
+
+.grid-cols-\[1fr_auto_1fr\] {
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.grid-cols-\[repeat\(4\2c auto\)\] {
+  grid-template-columns: repeat(4, auto);
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+  column-gap: 3rem;
+}
+
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-white\/30 {
+  border-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: #bbbbbb;
+  /* rgb(255, 219, 172 / var(--tw-bg-opacity)); */
+}
+
+.bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pr-1\.5 {
+  padding-right: 0.375rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-mono {
+  font-family: JetBrains Mono, monospace;
+}
+
+.text-xs {
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.8125rem;
+  line-height: 1.1rem;
+}
+
+.text-black\/50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-\[\#cd3f25\] {
+  --tw-text-opacity: 1;
+  color: rgb(205 63 37 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#cd3f25\]\/30 {
+  color: rgba(205, 63, 37, 0.3);
+}
+
+.text-white\/30 {
+  color: hsla(0, 0%, 100%, 0.3);
+}
+
+.shadow-\[4px_4px_0_rgba\(0\2c 0\2c 0\2c 0\.25\)\] {
+  --tw-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+  --tw-shadow-colored: 4px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.rendering-pixelated {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+}
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(/_next/static/media/JetBrainsMono-Regular.bae14b26.woff2)
+      format("woff2"),
+    url(/_next/static/media/JetBrainsMono-Regular.773863c9.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hover\:text-\[\#cd3f25\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 63 37 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .sm\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .sm\:gap-24 {
+    gap: 6rem;
+  }
+
+  .sm\:gap-x-12 {
+    -moz-column-gap: 3rem;
+    column-gap: 3rem;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:columns-2 {
+    -moz-columns: 2;
+    column-count: 2;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+}
+
+.\[\&\>\*\]\:pointer-events-auto > * {
+  pointer-events: auto;
+}
+
+.no-wrap-text {
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px; /* Adjust this value as needed to move the image more towards the top */
+  border: 2px solid black; /* Add a 2px solid black border */
+  border-radius: 10px; /* Rounded corners with a radius of 10px */
+}
+
+.centered-text {
+  text-align: center;
+  max-width: 700px; /* Optional: Set maximum width for the paragraph */
+  margin: auto; /* Center horizontally */
+  border: 2px solid black; /* Add a 2px solid black border */
+  border-radius: 10px; /* Make the borders rounded with a radius of 10px */
+  padding: 20px; /* Add 20px padding around the text */
+}
+
+#main-container {
+  flex: 1; /* Fill remaining space */
+}
+.image-link {
+  display: inline-block; /* Ensure the link wraps around the image */
+}
+
+.centered-image {
+  transition: transform 0.3s ease; /* Add a smooth transition for zoom effect */
+}
+
+.zoomed {
+  transform: scale(1.4); /* Increase the size of the image */
+}
+
+.image-container {
+  position: relative; /* Set the position of the container to relative */
+  display: inline-block; /* Ensure the container wraps around the image and text box */
+}
+
+.text-box {
+  position: absolute; /* Position the text box relative to the container */
+  text-align: center; /* Center text within the paragraph */
+  top: 10%; /* Align the text box to the top of the container */
+  left: 80%; /* Position the text box to the right of the image */
+  padding: 10px; /* Add padding to the text box */
+  border: 2px solid black; /* Add a border to the text box */
+  border-radius: 5px; /* Add border-radius to make the corners rounded */
+}
+
+.text-box2 {
+  position: absolute; /* Position the text box relative to the container */
+  text-align: center; /* Center text within the paragraph */
+  top: 15%; /* Align the text box to the top of the container */
+  left: 75%; /* Position the text box to the right of the image */
+  padding: 10px; /* Add padding to the text box */
+  border: 2px solid black; /* Add a border to the text box */
+  border-radius: 5px; /* Add border-radius to make the corners rounded */
+}
