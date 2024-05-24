@@ -147,24 +147,6 @@ body {
   transform: scale(1.2);
 }
 
-.footer-txt {
-  display: block;
-  color: #00000080;
-  text-decoration: none;
-  padding: 0.25rem;
-}
-
-.footer-txt:hover,
-.navbar-txt:hover {
-  color: red;
-}
-
-.navbar-txt {
-  display: block;
-  color: #00000080;
-  text-decoration: none;
-  padding: 0.2rem;
-}
 
 .navbar-container {
   position: fixed;
@@ -181,6 +163,16 @@ body {
   background-color: #bbbbbb; /* Change this to your desired background color */
 }
 
+.navbar-txt:hover {
+  color: red;
+}
+
+.navbar-txt {
+  display: block;
+  color: #00000080;
+  text-decoration: none;
+  padding: 0.4rem;
+}
 
 
 /* Additional styles for image zoom and text boxes */

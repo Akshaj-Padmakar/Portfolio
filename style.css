@@ -43,10 +43,6 @@ body {
   bottom: 2rem;
 }
 
-.line-below-navbar {
-  bottom: 3rem;
-}
-
 .icon-container {
   position: absolute;
   top: 0;
@@ -154,18 +150,6 @@ body {
   padding: 0.25rem;
 }
 
-.footer-txt:hover,
-.navbar-txt:hover {
-  color: red;
-}
-
-.navbar-txt {
-  display: block;
-  color: #00000080;
-  text-decoration: none;
-  padding: 0.2rem;
-}
-
 .navbar-container {
   position: fixed;
   bottom: 0rem;
@@ -179,4 +163,16 @@ body {
   border: 1.2px solid black;
   padding: 10px;
   background-color: #bbbbbb; /* Change this to your desired background color */
+}
+
+.footer-txt:hover,
+.navbar-txt:hover {
+  color: red;
+}
+
+.navbar-txt {
+  display: block;
+  color: #00000080;
+  text-decoration: none;
+  padding: 0.4rem;
 }
